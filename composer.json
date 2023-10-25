@@ -1,0 +1,23 @@
+{
+    "name": "sentica/symfony-delivery-microservices-shared",
+    "description": "Shared modules for symfony-delivery-microservices repository",
+    "type": "library",
+    "require": {
+        "php": "8.2.*",
+        "phpunit/phpunit": "11.0.x-dev",
+        "symfony/validator": "7.0.x-dev"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Sentica\\SymfonyDeliveryMicroservicesShared\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maciej Sobczyk",
+            "email": "maciej@sentica.pl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
