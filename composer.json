@@ -3,9 +3,9 @@
     "description": "Shared modules for symfony-delivery-microservices repository",
     "type": "library",
     "require": {
-        "php": "8.2.*",
+        "php": ">=8.1",
         "phpunit/phpunit": "11.0.x-dev",
-        "symfony/validator": "7.0.x-dev"
+        "symfony/validator": "6.3.*"
     },
     "license": "GPL",
     "autoload": {
