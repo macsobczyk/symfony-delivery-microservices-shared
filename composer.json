@@ -7,7 +7,7 @@
         "phpunit/phpunit": "^9.5",
         "symfony/validator": "6.3.*"
     },
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Sentica\\SymfonyDeliveryMicroservicesShared\\": "src/"
